@@ -15,6 +15,8 @@
 		287D1E971B952F5300F193E8 /* TriviaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1E961B952F5300F193E8 /* TriviaTableViewController.swift */; };
 		287D1EF71B960BE600F193E8 /* Data Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1EF61B960BE600F193E8 /* Data Model.swift */; };
 		287D1EFB1B96177E00F193E8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1EFA1B96177E00F193E8 /* TableViewCell.swift */; };
+		287D1EFF1B9624BE00F193E8 /* TriviaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1EFE1B9624BE00F193E8 /* TriviaMapViewController.swift */; };
+		287D1F011B96261A00F193E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287D1F001B96261A00F193E8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		287D1E961B952F5300F193E8 /* TriviaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaTableViewController.swift; sourceTree = "<group>"; };
 		287D1EF61B960BE600F193E8 /* Data Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data Model.swift"; sourceTree = "<group>"; };
 		287D1EFA1B96177E00F193E8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		287D1EFE1B9624BE00F193E8 /* TriviaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaMapViewController.swift; sourceTree = "<group>"; };
+		287D1F001B96261A00F193E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287D1F011B96261A00F193E8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		287D1E681B952ED900F193E8 = {
 			isa = PBXGroup;
 			children = (
+				287D1F001B96261A00F193E8 /* CoreLocation.framework */,
 				287D1E731B952ED900F193E8 /* Trivially Pursued */,
 				287D1E891B952ED900F193E8 /* Trivially PursuedTests */,
 				287D1E721B952ED900F193E8 /* Products */,
@@ -84,6 +90,7 @@
 				287D1E761B952ED900F193E8 /* AppDelegate.swift */,
 				287D1EFA1B96177E00F193E8 /* TableViewCell.swift */,
 				287D1E961B952F5300F193E8 /* TriviaTableViewController.swift */,
+				287D1EFE1B9624BE00F193E8 /* TriviaMapViewController.swift */,
 				287D1E7A1B952ED900F193E8 /* Main.storyboard */,
 				287D1EF61B960BE600F193E8 /* Data Model.swift */,
 				287D1E7D1B952ED900F193E8 /* Images.xcassets */,
@@ -219,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				287D1E971B952F5300F193E8 /* TriviaTableViewController.swift in Sources */,
+				287D1EFF1B9624BE00F193E8 /* TriviaMapViewController.swift in Sources */,
 				287D1EFB1B96177E00F193E8 /* TableViewCell.swift in Sources */,
 				287D1E771B952ED900F193E8 /* AppDelegate.swift in Sources */,
 				287D1EF71B960BE600F193E8 /* Data Model.swift in Sources */,

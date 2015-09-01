@@ -67,11 +67,21 @@ class TriviaTableViewController: UITableViewController {
         cell.landmark.text = trivias[indexPath.row].name
         cell.location.text = trivias[indexPath.row].city
         cell.details.text = trivias[indexPath.row].trivia
-  
+        
         
         return cell
+
     }
   
+
+    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+    // initial alpha state
+    cell.alpha = 0
+    // final alpha state (post animation)
+    UIView.animateWithDuration(1.0, animations: { () -> Void in
+        cell.alpha = 1
+        })
+}
 
     /*
     // Override to support conditional editing of the table view.
